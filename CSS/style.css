@@ -5,6 +5,7 @@ h2 - Our process
 h3 - the rest of the headings
 p - explanations
 a - links in navigation
+img - pictures
 footer - contains copyright
 #copyright - copyright ID
 #process = process section
@@ -13,3 +14,22 @@ footer - contains copyright
 #team = team header
 #contact = contact header
 */
+
+body{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+nav a{
+  display: block;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+#copyright{
+  text-align: left;
+}
